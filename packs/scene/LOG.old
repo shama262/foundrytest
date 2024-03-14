@@ -1,0 +1,7 @@
+2024/03/13-02:17:26.902 1208 Recovering log #4
+2024/03/13-02:17:26.907 1208 Delete type=0 #4
+2024/03/13-02:17:26.907 1208 Delete type=3 #2
+2024/03/13-02:36:34.574 4e8 Level-0 table #9: started
+2024/03/13-02:36:34.583 4e8 Level-0 table #9: 456725 bytes OK
+2024/03/13-02:36:34.585 4e8 Delete type=0 #7
+2024/03/13-02:36:34.635 4e8 Manual compaction at level-0 from '!folders!5C69Gs840RRMR6HG' @ 72057594037927935 : 1 .. '!scenes.walls!wzFwDcf2KsHEPlg0.zo5sKG66lztUF2W5' @ 0 : 0; will stop at (end)

@@ -1,0 +1,69 @@
+{
+  "id": "shamatransitiononeshot",
+  "title": "shamatransitiononeshot",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Author 1"
+    }
+  ],
+  "packs": [
+    {
+      "name": "oneshotadventure",
+      "label": "oneshotadventure",
+      "path": "packs/oneshotadventure",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actor",
+      "label": "Actor",
+      "path": "packs/actor",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "scene",
+      "label": "Scene",
+      "path": "packs/scene",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "music",
+      "label": "Music",
+      "path": "packs/music",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
